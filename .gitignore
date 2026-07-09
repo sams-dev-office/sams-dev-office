@@ -5,3 +5,9 @@ Desktop.ini
 # Nested game repos — tracked separately
 /Hamster Survivor (GamePlan)/
 /Hamster Defense/
+
+# Neo's clone-on-demand game repos — never commit into office repo
+SAMs_Development_Office/03_Neo_Code/hamster_survivor/*
+!SAMs_Development_Office/03_Neo_Code/hamster_survivor/.gitkeep
+SAMs_Development_Office/03_Neo_Code/hamster_defense/*
+!SAMs_Development_Office/03_Neo_Code/hamster_defense/.gitkeep

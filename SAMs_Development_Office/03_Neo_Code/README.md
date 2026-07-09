@@ -29,5 +29,32 @@ Never report something as "done" without running it. If you can't run it (e.g. m
 ## Git discipline
 Every fire: commit at end with message `neo: <what changed> (fire YYYY-MM-DD HH:MM)`.
 
+## Clone-on-demand game repos (Option B — Sam 2026-07-09)
+Game code lives in **external** repos, NOT in the office repo. Every fire, before touching game code:
+
+```
+# Hamster Survivor (branch: master)
+if [ ! -d $OFFICE_PATH/03_Neo_Code/hamster_survivor/.git ]; then
+  git clone https://x-access-token:${OFFICE_PAT}@github.com/sams-dev-office/Hamster-Survivor.git \
+    $OFFICE_PATH/03_Neo_Code/hamster_survivor
+else
+  cd $OFFICE_PATH/03_Neo_Code/hamster_survivor && git pull
+fi
+
+# Hamster Defense (branch: main)
+if [ ! -d $OFFICE_PATH/03_Neo_Code/hamster_defense/.git ]; then
+  git clone https://x-access-token:${OFFICE_PAT}@github.com/sams-dev-office/hamster-defense.git \
+    $OFFICE_PATH/03_Neo_Code/hamster_defense
+else
+  cd $OFFICE_PATH/03_Neo_Code/hamster_defense && git pull
+fi
+```
+
+**ALL GAME COMMITS GO TO THE GAME REPO'S REMOTE**, not the office remote. Branch names:
+- Hamster-Survivor → `master`
+- hamster-defense → `main`
+
+The office repo `.gitignore` excludes these clone targets; only `.gitkeep` is tracked. If `OFFICE_PAT` env var is missing, do NOT guess — write `NEEDS_HELP.md` and stop.
+
 ## Token frugality
 Focused edits. No exploratory web searches unless stuck. If stuck 2× in a row, write NEEDS_HELP.md and stop.
