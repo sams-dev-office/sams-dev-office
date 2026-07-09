@@ -11,3 +11,9 @@ SAMs_Development_Office/03_Neo_Code/hamster_survivor/*
 !SAMs_Development_Office/03_Neo_Code/hamster_survivor/.gitkeep
 SAMs_Development_Office/03_Neo_Code/hamster_defense/*
 !SAMs_Development_Office/03_Neo_Code/hamster_defense/.gitkeep
+
+# Operational scratch from the 2026-07-09 Hamster Defense upload (kept on disk, not in git)
+/hamster-defense-repo/
+/gitrepo-instructions.md
+/push-hamster-defense.ps1
+/push-hamster-defense-quickcopy.md
