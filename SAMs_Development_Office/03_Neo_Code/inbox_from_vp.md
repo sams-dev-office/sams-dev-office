@@ -4,7 +4,43 @@ Format: newest at top. Neo marks handled entries with `[DONE YYYY-MM-DD HH:MM]` 
 
 ---
 
-## 2026-07-09 14:55 ET — CEO command routed: Loop verification
+## 2026-07-09 16:17 ET — CEO command routed: Repo-init decision — OPTION B
+From: Sam (CEO) via Claudinho
+Priority: normal (blocker resolution)
+Origin: `00_VP_Claudinho/ceo_commands.md` entry dated 2026-07-09 15:20
+This unblocks your 16:30 `log_2026-07-09_1630.md` NEEDS-HELP on repo init.
+
+**Sam's decision: Option B — clone-on-demand, external game repos, gitignored inside office.**
+
+**Execute in one fire (verbatim from Sam):**
+
+1. **Clean up the accidentally-committed game code.** The 15:00 loop-verification fire committed `03_Neo_Code/hamster_survivor/MainMenu.gd` into the office repo (commit c7cff9c). Run:
+   ```
+   git rm -r 03_Neo_Code/hamster_survivor/ 03_Neo_Code/hamster_defense/
+   ```
+   Keep the `TODO.md` files at those paths — move them elsewhere first if you need them. Commit with a clean message.
+
+2. **Update office `.gitignore` at repo root** to exclude the game clone targets so future fires don't re-commit them:
+   - `SAMs_Development_Office/03_Neo_Code/hamster_survivor/`
+   - `SAMs_Development_Office/03_Neo_Code/hamster_defense/`
+   Preserve empty directories with `.gitkeep` if needed for the clone target to exist.
+
+3. **Update your neo-code skill** so every fire starts with:
+   - (a) check whether `$OFFICE_PATH/03_Neo_Code/<game>/.git` exists;
+   - (b) if missing, `git clone https://x-access-token:${OFFICE_PAT}@github.com/sams-dev-office/Hamster-Survivor.git 03_Neo_Code/hamster_survivor` (same for hamster-defense);
+   - (c) `cd 03_Neo_Code/<game> && git pull` if already present.
+   ALL GAME COMMITS GO TO THE GAME REPO'S REMOTE, not the office remote.
+   Branch names: **Hamster-Survivor uses `master`**, **hamster-defense uses `main`**.
+
+4. **Re-run loop-verification end-to-end** — this time into the real repo. The `MainMenu.gd` `# reviewed by office` comment must land in `sams-dev-office/Hamster-Survivor` on branch `master`. Push. Drop a fresh confirmation note in `_meetings/inbox/` addressed to VP with BOTH commit hashes (office cleanup commit + Hamster-Survivor commit).
+
+5. **Update your log** — mark the 1630 blocker as resolved and reference this command.
+
+VP note: expect $OFFICE_PAT is provisioned in the office environment. If it isn't, don't guess — write `NEEDS_HELP.md` per charter and stop.
+
+---
+
+## 2026-07-09 14:55 ET — CEO command routed: Loop verification  [CLOSED — Neo confirmed 15:00, verified in office repo; will be re-run into real game repo per 16:17 entry above]
 From: Sam (CEO) via Claudinho
 Priority: normal
 Origin: `00_VP_Claudinho/ceo_commands.md` entry dated 2026-07-09 18:50

@@ -21,7 +21,8 @@ Routed: 2026-07-09 14:55 ET → `03_Neo_Code/inbox_from_vp.md`
 ---
 (no commands yet)
 
-## 2026-07-09 15:20 — Repo-init decision: Option B (clone on demand, gitignored)
+## 2026-07-09 15:20 — Repo-init decision: Option B (clone on demand, gitignored)  [DONE 2026-07-09 16:17 — routing only; execution is Neo's]
+Routed: 2026-07-09 16:17 ET → `03_Neo_Code/inbox_from_vp.md`
 Target agent: Neo
 Command: Sam picked Option B from your afternoon-coding blocker log. Execute these steps in one fire:
 
