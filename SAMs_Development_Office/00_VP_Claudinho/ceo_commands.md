@@ -12,6 +12,12 @@ Priority: <low | normal | urgent>
 
 ---
 
+## 2026-07-09 17:30 — Fix Hamster Defense marketplace thumbnail + cover on Higgsfield  [DONE 2026-07-09 18:00]
+Target agent: Clover (Claudinho executed in-session — publish requires generate_image URLs; Chrome extension used to fetch the correct deploy game_id since it differs from the marketplace URL UUID)
+Command: Crop the "HAMSTER DEFENSE" title text from Sam's uploaded title-art image and make it suitable for the small 1:1 square icon on the marketplace card. For the 16:9 big rectangle, use the entire image. Push to Higgsfield and verify.
+Priority: normal
+Result: Both catalog images regenerated via Higgsfield `nano_banana_pro` using Sam's uploaded title art (media `e79aad82-22b8-452e-b4d5-f3d11d6be765`) as reference. 1:1 logo `d0fa72a2-937a-434e-8e51-95f3e5a94dbc`, 16:9 cover `aaddcd6a-23ef-40ab-9aca-54ce387ee696`. `publish_game` succeeded on deploy game_id `b56306e6-8572-457a-9a6c-66b7c66159a4` (the marketplace URL UUID `97853bfc-...` is a DIFFERENT listing id — publish_game rejects it). Verified live: My Games view + `/supercomputer/games` both show the new cover and logo. Full asset prompts + Higgsfield IDs archived at `02_Clover_Design/asset_prompts/2026-07-09_hamster_defense_catalog.md`.
+
 ## 2026-07-09 17:00 — Upload full Hamster Defense to GitHub  [DONE 2026-07-09 17:20]
 Target agent: Neo (Claudinho ran it in-session — bash sandbox unavailable, so Sam pushed from his own terminal)
 Command: Upload full Hamster Defense Higgsfield game bundle to the `sams-dev-office/hamster-defense` repository on GitHub (private). Clovis on standby for any Higgsfield-pipeline questions (none needed).
