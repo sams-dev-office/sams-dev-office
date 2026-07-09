@@ -11,4 +11,11 @@ Priority: <low | normal | urgent>
 ```
 
 ---
+
+## 2026-07-09 18:50 — Loop verification for Neo
+Target agent: Neo
+Command: Verify the CEO command loop works end-to-end. As proof, add a comment in MainMenu.gd (e.g. `# CEO loop verification — Neo was here 2026-07-09`), commit, and push.
+Priority: normal
+
+---
 (no commands yet)
