@@ -35,6 +35,9 @@ Game code lives in **external** repos, NOT in the office repo. Every fire, befor
 ```
 # Hamster Survivor (branch: master)
 if [ ! -d $OFFICE_PATH/03_Neo_Code/hamster_survivor/.git ]; then
+  # dir contains only a .gitkeep placeholder from the office repo — clear it first
+  rm -f $OFFICE_PATH/03_Neo_Code/hamster_survivor/.gitkeep
+  rmdir $OFFICE_PATH/03_Neo_Code/hamster_survivor 2>/dev/null || true
   git clone https://x-access-token:${OFFICE_PAT}@github.com/sams-dev-office/Hamster-Survivor.git \
     $OFFICE_PATH/03_Neo_Code/hamster_survivor
 else
@@ -43,6 +46,8 @@ fi
 
 # Hamster Defense (branch: main)
 if [ ! -d $OFFICE_PATH/03_Neo_Code/hamster_defense/.git ]; then
+  rm -f $OFFICE_PATH/03_Neo_Code/hamster_defense/.gitkeep
+  rmdir $OFFICE_PATH/03_Neo_Code/hamster_defense 2>/dev/null || true
   git clone https://x-access-token:${OFFICE_PAT}@github.com/sams-dev-office/hamster-defense.git \
     $OFFICE_PATH/03_Neo_Code/hamster_defense
 else
