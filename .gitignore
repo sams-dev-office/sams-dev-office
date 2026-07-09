@@ -1,3 +1,7 @@
-﻿*.zip
+*.zip
 Thumbs.db
 Desktop.ini
+
+# Nested game repos — tracked separately
+/Hamster Survivor (GamePlan)/
+/Hamster Defense/
