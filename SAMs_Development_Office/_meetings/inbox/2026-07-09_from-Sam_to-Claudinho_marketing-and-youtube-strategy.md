@@ -27,14 +27,17 @@ After Step 1 is planned, Claudinho pulls in **Money Guy** + **Wise Guy** to buil
 ## Standing order
 Hold both strategies as ready-to-execute plans. Sam says "go" → the office executes without needing further clarification.
 
-## Open questions for Sam (Clover flagged — VP must confirm before deep research burns tokens)
-1. **Which game hit 170+ plays?** Hamster Survivor, Hamster Defense, or another? On which platform (itch.io / Kongregate / Poki / Crazy Games / Steam Next Fest / other)?
-2. **Which YouTube channel?** New channel, existing one, or the "channel we've talked about" — Claudinho needs the name/handle/niche (gameplay of our games? dev-log? cozy-games content? something else?).
-3. **Genre anchor for the "top 100" list** — Sam mentioned "cozy" but our current games (Hamster Survivor = pixel auto-shooter, Hamster Defense = tower defense) are not classically cozy. Confirm: research cozy-adjacent, or research the actual sub-genres (bullet-heaven roguelike + multiplayer TD)? Or both, ranked separately?
-4. **Crowdfunding vehicle preference** — Kickstarter, Indiegogo, Patreon early-access, Steam wishlists + wishlist-to-email funnel, or all of the above?
-5. **Streaming-bot legal posture** — 24/7 gameplay bot on Twitch/YouTube Live can trip TOS if not framed right. OK to plan around clearly-labeled "developer demo stream" or does Sam want something that looks like a human streamer?
-6. **Budget ceiling** — for paid tools (Buffer/Publer, streaming server, Higgsfield credits, voice cloning). What monthly cap should the office plan under?
-7. **Solo or team of one?** — is Sam the only human executor, or is there anyone else the office should route human-required steps to?
+## Open questions for Sam — ANSWERED 2026-07-09
+1. **Which game hit 170+ plays?** → **Hamster Defense.** (Platform still needs confirming — Clover to ask on next contact.)
+2. **YouTube channel** → Drop the separate personal channel project for now. Instead: plan a **Hamster Defense game-marketing YouTube channel** for trailers, dev clips, gameplay highlights, patch notes. Money Guy + Wise Guy still design the automation pipeline, but scoped to the game channel.
+3. **Genre anchor for top 100** → **Tower Defense (actual sub-genre).** Marketing Guy: build the top-100 TD indie dossier, not cozy.
+4. **Crowdfunding vehicle** → Sam asked office to propose one. Money Guy + Wise Guy: come back with a ranked recommendation (Kickstarter vs Patreon vs Steam wishlist funnel vs Indiegogo) based on TD-genre track record.
+5. **Streaming-bot posture** → Explained to Sam (developer-demo-stream vs simulated-human vs scheduled-blocks). Awaiting Sam's pick; Clover recommends option (a) or (c) by default.
+6. **Budget ceiling** → Not decided yet. Office should present strategies in tiers: $0 / $30/mo / $100/mo / $300/mo, so Sam picks after seeing tradeoffs.
+7. **Solo executor** → Sam wasn't sure what this meant; Clover clarified. Awaiting confirmation. Default assumption: Sam is the only human executor.
+
+## Committed research decisions (this session)
+- **Scheduler pick: Publer $12/mo primary**, Buffer free tier as zero-risk start. Metricool free tier for analytics from month 2. Hootsuite ruled out. See sibling memo `2026-07-09_clover_scheduler-cost-benefit-research.md`.
 
 ## Handoff
 - Claudinho: on next VP fire, read this memo, spawn planning threads for Marketing Guy + Wise Guy (Step 1) and Money Guy + Wise Guy (Step 2). Do not burn deep-research tokens until Sam answers the 7 questions above.
