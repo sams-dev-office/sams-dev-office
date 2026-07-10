@@ -4,7 +4,8 @@ For: Claudinho → Marketing Guy → Neo
 
 ## Locked
 - **Tool:** Publer, **Free plan** (no cost).
-- **Channels (3):** Instagram, TikTok, YouTube — for **Hamster Defense**.
+- **Channels (2 at launch, 3 later):** Instagram + YouTube for **Hamster Defense**. TikTok DEFERRED — every hamster-related handle Sam tried was squatted on IG, and consistency across all three matters more than TikTok's short-term reach. Revisit TikTok once IG handle is locked; may need a wider brand pivot to get all three matching.
+- **YouTube channel:** live at `youtube.com/@HamsterDefense` (channel ID UCrhOWOb0aviiYdJKM_pPaQg) — created 2026-07-09.
 - **Constraints of Free plan** the office must plan around:
   - Only **10 scheduled posts** total (rolling — as they publish, slots free).
   - **No Spintax** post recycling → captions must be hand-varied.
