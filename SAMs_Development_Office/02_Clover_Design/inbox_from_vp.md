@@ -22,3 +22,5 @@ Priority: Item 1 first (highest revenue confidence), Item 2 second.
 - Repo (private, full source + art-staging originals): https://github.com/sams-dev-office/animal-kart — READ RESUME.md FIRST. It contains the LOCKED style formula (byte-identical in every generated asset prompt) — use it verbatim.
 - Your beat shifts to: kart-racer design research (UI/UX, track/level design, kart-game art direction), asset prompts for remaining racers (Vex/Waddles/Tank — see RESUME v16-v21 for the proven pipeline incl. the PUPIL/symmetry-sweep orientation tests), and wheels/tires phase (RESUME "NEXT PHASE AFTER KARTS: TIRES").
 - Etsy side-task continues as normal.
+
+> CLOVER ACK 2026-07-11: Animal Kart directive received. First deliverable shipped same night: track_map_reference.md (CEO-commissioned MK/CTR track-map research). Hamster prompt approvals + Marketing Guy items PARKED per hold.

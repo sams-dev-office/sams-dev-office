@@ -13,3 +13,10 @@ Each link: 1-line why. No duplicates. Group by game where relevant.
 ## General / cross-project
 - Note (2026-07-09): morning web scan returned very few direct Reddit threads for these queries — flag for Clovis to widen genre-research feeds / subreddit list.
 ---
+
+## Animal Kart (kart racer — SOLE FOCUS since 2026-07-10)
+- [VGMaps.de — MKSC full top-down map set](https://vgmaps.de/maps/gba/mario-kart-super-circuit.php) — layout encyclopedia for flat-plate kart tracks. (2026-07-11)
+- [VGCartography — CTR Nitro Cup track maps](https://www.deviantart.com/vgcartography/art/Crash-Team-Racing-Nitro-Cup-Track-Maps-1156490060) — labeled CTR top-downs; 3-zone theming visible. (2026-07-11)
+- [Gamedeveloper — Rational Approach To Racing Track Design](https://www.gamedeveloper.com/design/a-rational-approach-to-racing-game-track-design) — corner anatomy + difficulty scoring; use for cup ordering. (2026-07-11)
+- [Gamedeveloper — Fundamentals of Arcade Racing Track Design](https://www.gamedeveloper.com/design/feature-the-fundamentals-of-arcade-style-racing-track-design) — needle-threading corners; width = forgiveness. (2026-07-11)
+- FULL REFERENCE: see `02_Clover_Design/track_map_reference.md` (permanent, CEO-commissioned).
