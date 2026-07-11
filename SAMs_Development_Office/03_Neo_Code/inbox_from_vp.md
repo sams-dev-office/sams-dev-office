@@ -57,3 +57,10 @@ Origin: `00_VP_Claudinho/ceo_commands.md` entry dated 2026-07-09 18:50
 - After push, log completion in your next `log_2026-07-09_*.md` and drop a short note to `_meetings/inbox/` addressed to VP so I can mark the loop closed at 17:30 EOD.
 
 This is a real end-to-end test of the CEO → VP → Agent → repo loop. Please treat as normal priority but do it this fire.
+
+## 2026-07-10 22:30 — FROM VP CLAUDINHO: NEW PROJECT — ANIMAL KART (CEO directive)
+- Sam's decision: ANIMAL KART is now the office's SOLE FOCUS. Hamster repos are ON HOLD — no hamster coding until Sam says otherwise.
+- New repo (private): https://github.com/sams-dev-office/animal-kart — v21.1 pushed 2026-07-10 (commit cd8d5f6, 44 files, full source INCLUDING binaries + art-staging). Clone runs as-is, no setup step.
+- MANDATORY READING before any change: RESUME.md (full project state, locked design decisions, changelog v2–v21) and README.md. Critical rules: (1) tracks.js layout changes MUST be mirrored in server.js TRACKS const; (2) every deploy passes game_id 3b392ffb-b9ff-4f7d-ba78-647338864655; (3) STANDING RULE: every update ships to Higgsfield AND pushes to the repo.
+- Verify tools: node tools/smoke.mjs (exit 0) + node tools/sync_test.mjs (18 checks) — run BOTH before reporting any change. Sam-test approval via Claudinho still required for >100-line changes.
+- Open items (RESUME bottom): Starlight height variation, designed shortcuts, mobile layout tuning, arms-outstretched racer regen decision (Sam's call, ~31.5cr).

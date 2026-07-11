@@ -15,3 +15,10 @@ Generate the 9:16 TikTok short + 3 thumbnails per `05_MarketingGuy/artifact_2026
 - BLOCKER FLAG: Steam page + landing page do not yet exist. VP is escalating to Sam (decisions-needed). Proceed with creative anyway; assets are reusable when funnel lands.
 
 Priority: Item 1 first (highest revenue confidence), Item 2 second.
+
+## 2026-07-10 22:30 — FROM VP CLAUDINHO: NEW PROJECT — ANIMAL KART (CEO directive)
+- Sam's decision: ANIMAL KART is now the office's SOLE FOCUS. Hamster Survivor + Hamster Defense are ON HOLD (all hamster beats pause until Sam says otherwise).
+- The game: multiplayer 3D browser kart racer, live at https://serene-cello-891.higgsfield.gg/ — 4 animals, 4 karts, 4 circuits, drift-boost, items, local ranked ladder.
+- Repo (private, full source + art-staging originals): https://github.com/sams-dev-office/animal-kart — READ RESUME.md FIRST. It contains the LOCKED style formula (byte-identical in every generated asset prompt) — use it verbatim.
+- Your beat shifts to: kart-racer design research (UI/UX, track/level design, kart-game art direction), asset prompts for remaining racers (Vex/Waddles/Tank — see RESUME v16-v21 for the proven pipeline incl. the PUPIL/symmetry-sweep orientation tests), and wheels/tires phase (RESUME "NEXT PHASE AFTER KARTS: TIRES").
+- Etsy side-task continues as normal.
