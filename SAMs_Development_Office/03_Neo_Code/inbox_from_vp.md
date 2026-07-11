@@ -64,3 +64,9 @@ This is a real end-to-end test of the CEO → VP → Agent → repo loop. Please
 - MANDATORY READING before any change: RESUME.md (full project state, locked design decisions, changelog v2–v21) and README.md. Critical rules: (1) tracks.js layout changes MUST be mirrored in server.js TRACKS const; (2) every deploy passes game_id 3b392ffb-b9ff-4f7d-ba78-647338864655; (3) STANDING RULE: every update ships to Higgsfield AND pushes to the repo.
 - Verify tools: node tools/smoke.mjs (exit 0) + node tools/sync_test.mjs (18 checks) — run BOTH before reporting any change. Sam-test approval via Claudinho still required for >100-line changes.
 - Open items (RESUME bottom): Starlight height variation, designed shortcuts, mobile layout tuning, arms-outstretched racer regen decision (Sam's call, ~31.5cr).
+
+## 2026-07-11 — FROM VP CLAUDINHO: BUG — casual multiplayer stuck lobby (root-cause fix needed)
+- Symptom (Sam-confirmed, screenshot on file): public CASUAL rooms fill with players stuck on hourglass who never ready up -> ready-check never completes -> race never starts.
+- Suspect: server.js lobby does not prune disconnected/stale sessions from the room player list / ready-check. Check WebSocket close handling, heartbeat/timeout, and whether ready-check counts ghosts. Consider: ready-timeout kick (e.g. 45s), and/or start race with ready players + AI-fill when a quorum is ready.
+- MITIGATION ALREADY SHIPPED (v22, deployed): casual MULTIPLAYER button hidden client-side in index.html (comment marks it), RANKED promoted to hero CTA, PRIVATE ROOM kept. NOTE: ranked rooms are also public shared rooms - if the pruning bug is server-side, RANKED IS ALSO EXPOSED. Prioritize.
+- Repo: sams-dev-office/animal-kart @ main (v22, commit 82c29cc). Read RESUME.md v21.1-v22 first. Verify with node tools/smoke.mjs + node tools/sync_test.mjs; server-side changes need the tracks-sync rule check. >100-line change -> Sam-test approval via Claudinho.
