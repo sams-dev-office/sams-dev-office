@@ -20,3 +20,5 @@ Each link: 1-line why. No duplicates. Group by game where relevant.
 - [Gamedeveloper — Rational Approach To Racing Track Design](https://www.gamedeveloper.com/design/a-rational-approach-to-racing-game-track-design) — corner anatomy + difficulty scoring; use for cup ordering. (2026-07-11)
 - [Gamedeveloper — Fundamentals of Arcade Racing Track Design](https://www.gamedeveloper.com/design/feature-the-fundamentals-of-arcade-style-racing-track-design) — needle-threading corners; width = forgiveness. (2026-07-11)
 - FULL REFERENCE: see `02_Clover_Design/track_map_reference.md` (permanent, CEO-commissioned).
+- [GameSpot — 20 best Mario Kart tracks](https://www.gamespot.com/gallery/best-mario-kart-tracks-courses-of-all-time/2900-4282/) — the loved-track pool behind Batch 2 concepts. (2026-07-11)
+- [Cultured Vultures — 12 best CTR:NF tracks](https://culturedvultures.com/12-best-crash-team-racing-nitro-fueled-tracks/) — Polar Pass winter mood + shortcut-gamble evidence. (2026-07-11)
