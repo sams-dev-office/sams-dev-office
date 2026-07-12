@@ -45,3 +45,30 @@ Format:
 - Status: proposed
 
 ---
+
+# === 2026-07-12 15:30 ET afternoon fire additions ===
+Context: Clover surfaced two new adjacent packs (Rodent Horde enemies, Fortify TD UI). Combining them with Money Guy's marketplace lens produces two new proposals + a fallback pick because the 07-09 top pick (Hamster Survivor Starter Kit) is still stalled in Clover's inbox.
+
+## Hamster Defense — Tower Defense Marketplace Kit
+- Buyer: mobile + PC tower-defense devs on Unity/Godot; secondary buyers = Unity Asset Store TD-template shoppers who want a drop-in art layer
+- Contents: 8 tower archetypes × 3 upgrade tiers (24 sprites, animated idle + fire), 12 enemy waves (creep/tank/dasher/flyer × archetype variants), Fortify UI kit merged in (radial upgrade menu, HP/threat bars, wave banners, 8 damage-type icons, range rings — 9-slice), 2 map tilesets (yard, kitchen counter), light + dark palette variants
+- Competing packs + prices: TD UI kits on itch.io / Unity Asset Store $10–25 (Clover signal); full TD art+UI bundles on Unity Asset Store $25–60; underserved on "hierarchy-first" style (WesPlays gap)
+- Effort: MEDIUM-HIGH — Fortify UI kit already scoped by Clover; enemy silhouette rules reusable from Rodent Horde; tower upgrade-tier system needs Neo pipeline
+- Projected revenue range: **$1k–3.5k / 6 months** at $19–29 (bundle) or $12 UI-only + $18 art-only split; Unity Asset Store is highest ARPU
+- Status: proposed → **TOP PICK for this fire** (compounds with internal `hamster_defense`; Fortify UI kit is Clover-approved direction so no design blocker)
+
+## Rodent Horde — Standalone Pixel Enemy Pack
+- Buyer: any VS-clone / bullet-heaven dev who does NOT want a full themed kit — just the enemies. Lower price-point funnel SKU that upsells into Hamster Survivor Starter Kit.
+- Contents: 24 32×32 enemy sprites (6 archetypes × 4 variants), 4-frame walk + 2-frame hit, 2 boss sheets (64×64), single locked 16-color palette + palette-swap alt (desert, night)
+- Competing packs + prices: itch.io tag-enemy pixel packs $5–15; palette-locked premium $20+
+- Effort: LOW-MEDIUM — Clover already owns the palette + silhouette spec; batch-generatable via Higgsfield
+- Projected revenue range: **$500–1.8k / 6 months** at $8–12; strong bundle-attach — every buyer of this pack is a warm lead for the Hamster Survivor Starter Kit at $15
+- Status: proposed → FALLBACK if Clover's Hamster Survivor prompts stay stalled past 2026-07-13; Rodent Horde ships without waiting on hero/boss/FX approval
+
+## Devlog Case-Study Pack (info-product, not art)
+- Buyer: aspiring indie devs / marketplace sellers who want "how we shipped and sold a $15 pack in a week" playbook
+- Contents: 30-page PDF, screenshot walkthrough of listing setup (itch.io + Gumroad + Unity), pricing worksheet, Aseprite palette template, launch-week checklist. Sold on Gumroad.
+- Competing packs + prices: indie-dev playbooks on Gumroad $15–49; ChrisZukowski-style courses $99+
+- Effort: LOW — repurposes Marketing Guy's devlog artifact + our own package_ideas doc; near-zero incremental asset cost
+- Projected revenue range: **$300–1.2k / 6 months** at $19–29; low ceiling but zero blocker on Clover/Neo
+- Status: proposed — Marketing Guy owns funnel, Money Guy owns SKU
